@@ -1,0 +1,464 @@
+@charset "UTF-8";
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    background-color: black;
+    color: #FFF8E7;
+    text-align: center;
+    background-size: cover;
+    background-image: url(../imagenes/MANUAL%20FRAME-2.png);
+    background-repeat: no-repeat;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    padding: 15px;
+    background-position: 0% 0%;
+}
+
+.logo {
+    height: 60px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #FF6600;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #002BFF;
+}
+
+/* Inicio con video */
+.inicio video {
+    width: 80%;
+    max-width: 800px;
+    border: 4px solid var#FF6600;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+/* Artistas */
+.artistas {
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+
+/* Contacto */
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid var#FF6600;
+  border-radius: 6px;
+}
+
+form button {
+  background-color: #FF6600;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #002BFF;
+}
+
+/* ==== TEASER DE INICIO ==== */
+.portadas-teaser {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.contenedor_portadas {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 40px;
+}
+
+.portada1 {
+    color: #fff;
+    padding: 100px;
+    border-radius: 12px;
+    flex: 1 1 200px;
+    text-align: center;
+    transition: transform 0.3s;
+    background-size: cover;
+    background-image: url(../imagenes/2117105.jpg);
+}
+.inicio h1 {
+    margin-top: 15px;
+    color: #F3F0E6;
+}
+.inicio h3 {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.portada2 {
+    color: #fff;
+    padding: 100px;
+    border-radius: 12px;
+    flex: 1 1 200px;
+    text-align: center;
+    transition: transform 0.3s;
+    background-image: url(../imagenes/8320177.jpg);
+    background-size: cover;
+}
+
+.portada3 {
+    color: #fff;
+    padding: 100px;
+    border-radius: 12px;
+    flex: 1 1 200px;
+    text-align: center;
+    transition: transform 0.3s;
+    background-image: url(../imagenes/10015042.jpg);
+    background-size: cover;
+}
+
+.portada4 {
+    color: #fff;
+    padding: 100px;
+    border-radius: 12px;
+    flex: 1 1 200px;
+    text-align: center;
+    transition: transform 0.3s;
+    background-size: cover;
+    background-image: url(../imagenes/2954631.jpg);
+}
+
+
+
+.portada5 {
+    color: #fff;
+    padding: 100px;
+    border-radius: 12px;
+    flex: 1 1 200px;
+    text-align: center;
+    transition: transform 0.3s;
+    background-image: url(../imagenes/9219338.jpg);
+    background-size: contain;
+}
+
+
+.teaser-portada:hover {
+  transform: scale(1.1);
+}
+
+/* ==== ARTISTAS ==== */
+.artistas {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.artistas-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.artista {
+    background-color: #000000; /* beige */
+    border-radius: 12px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    width: 250px;
+    text-align: center;
+    color: rgba(0,0,0,1.00);
+}
+
+.animada1 {
+    background-color: #0033a0; /* azul rey */
+    color: white;
+    height: 150px;
+    margin-top: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../imagenes/8320177.jpg);
+    background-size: cover;
+}
+
+.animada2 {
+    background-color: #0033a0; /* azul rey */
+    color: white;
+    height: 150px;
+    margin-top: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../imagenes/10015042.jpg);
+    background-size: cover;
+}
+
+.animada3 {
+    background-color: #0033a0; /* azul rey */
+    color: white;
+    height: 150px;
+    margin-top: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../imagenes/2117105.jpg);
+    background-size: cover;
+}
+
+.animada4 {
+    background-color: #0033a0; /* azul rey */
+    color: white;
+    height: 150px;
+    margin-top: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-image: url(../imagenes/2954631.jpg);
+}
+
+.animada5 {
+    background-color: #0033a0; /* azul rey */
+    color: white;
+    height: 150px;
+    margin-top: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../imagenes/9219338.jpg);
+    background-size: cover;
+}
+
+.animada6 {
+    background-color: #0033a0; /* azul rey */
+    color: white;
+    height: 150px;
+    margin-top: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-image: url(../imagenes/8320177.jpg);
+}
+.artistas {
+    text-align: center;
+    color: #fff;
+    padding-top: 60px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #000; /* Fondo negro como en tu diseño */
+}
+
+.artistas h2 {
+    font-size: 2.2em;
+    margin-bottom: 10px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+.artistas p {
+  font-size: 1.1em;
+  color: #ccc;
+  margin-bottom: 40px;
+}
+
+.galeria-artistas {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.artista {
+  width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.artista img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+}
+
+.artista h3 {
+  margin-top: 10px;
+  font-size: 1.2em;
+  color: #ff6a00; /* tono naranja que combina con tu fondo */
+}
+
+.artista:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 25px rgba(255, 106, 0, 0.5);
+}
+
+/* ==== CONTACTO ==== */
+.contacto {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.contacto form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.contacto input,
+.contacto textarea {
+  padding: 10px;
+  border: 2px solid #0033a0; /* azul rey */
+  border-radius: 8px;
+}
+
+.contacto button {
+  background: #ff6600; /* naranja */
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.contacto button:hover {
+  background: #000; /* negro */
+}
+
+/* ==== FOOTER ==== */
+.footer {
+    background: #f4f0e6; /* beige */
+    color: #000000;
+    padding: 30px 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer-contenido {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+
+}
+
+.footer-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-nav a {
+  color: #ff6600; /* Naranja */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.footer-nav a:hover {
+  color: #0033a0; /* Azul rey */
+}
+
+.footer-redes {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.footer-redes a {
+  color: #000; /* negro */
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-redes a:hover {
+  color: #ff6600; /* Naranja */
+}
+
+.bg-imagen {
+    height: 100vh; /* cambia por tu imagen */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: white;
+    text-align: center;
+    background-image: url(../imagenes/pexels-sebastian-ervi-866902-1763075.jpg);
+}
+
+/* Capa oscura para mejorar contraste */
+.bg-imagen .overlay {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.bg-imagen h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #ff6600; /* Naranja de tu paleta */
+}
+.portadas-teaser h2 {
+    color: rgba(255,102,1,1.00);
+    font-size: xx-large;
+}
+
+.bg-imagen p {
+  font-size: 1.2rem;
+}
+.artistas p {
+    margin-top: 20px;
+}
+.artistas p2 {
+    padding-top: 80px;
+}
